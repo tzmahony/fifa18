@@ -1,0 +1,112 @@
+body {
+    margin:0;
+    padding:0;
+    background-image: url("https://roadtovrlive-5ea0.kxcdn.com/wp-content/uploads/2018/05/fifa-world-cup.jpg");
+}
+
+.header {
+    color: white;
+    background-color: green;
+    border: 5px solid darkgreen;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    height: 200px;
+    width: 100%;
+    margin: 0px;
+    font-size: 40px;
+    font-family: monospace;
+    text-align: center;
+}
+
+.header img.trophy {
+    height: 75px;
+    width: 100px;
+}
+
+.navbar {
+    background-color: white;
+    height: 40px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: #111111;
+}
+
+.country-box {
+    border: 2px solid white;
+    background-color: red;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    height: 150px;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+}
+
+.country-box img {
+    height: 100px;
+    width: 150px;
+}
+
+.country-box h3 {
+    color: white;
+}
+
+.stadium-box{
+    border: 2px solid white;
+    background-color: red;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    height: 150px;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+}
+
+.stadium-box h3 {
+    color: white;
+}
+
+.tvchannel-box{
+    border: 2px solid white;
+    background-color: red;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    height: 150px;
+    width: 400px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.tvchannel-box h3 {
+    color: white;
+}

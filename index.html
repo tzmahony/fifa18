@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>world cup</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" type="application/javascript"></script>
+
+    <script>
+
+        document.addEventListener("DOMContentLoaded", function () {
+            // loadTeams();
+            onPageLoad();
+        });
+
+    </script>
+</head>
+
+<body style="background-color: aqua">
+
+<div id="header" class="header">
+    <h1>World Cup 2018</h1>
+    <!--<img class="trophy" src="https://upload.wikimedia.org/wikipedia/commons/c/cb/FIFA_World_Cup.jpg"-->
+         <!--alt="world cup trophy">-->
+</div>
+<div id="navbar" class="navbar">
+    <ul>
+        <li>
+            <a href="#" onclick="setCurrentPage('teams')">Teams</a>
+        </li>
+        <li>
+            <a href="#" onclick="setCurrentPage('stadiums')">Stadiums</a>
+        </li>
+        <li>
+            <a href="#" onclick="setCurrentPage('channels')">Channels</a>
+        </li>
+    </ul>
+</div>
+<div id="container">
+
+    <div id="content">
+        <!-- dynamically add content here -->
+    </div>
+
+</div>
+
+</body>
+
+</html>
